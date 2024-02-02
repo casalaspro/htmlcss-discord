@@ -220,11 +220,9 @@ nav > .container > #navigator{
   text-align: center;
 }
 
-.hero p{
-  text-align: center;
+.paragraph{
   font-weight: 400;
   font-size: large;
-  color: white;
   margin-bottom: 30px;
 }
 
