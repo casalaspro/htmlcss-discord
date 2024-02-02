@@ -1,0 +1,191 @@
+/* RESET */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: currentColor;
+}
+
+/* LAYOUT */
+
+.container{
+  max-width: 1024px;
+  margin: auto;
+  padding: 25px;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col{
+  border: 1px dashed black;
+}
+
+/* bg-color */
+
+.bg-blue_navy{
+  background-color: #02008B;
+}
+
+.bg-strong_pink{
+  background-color: #EE81ED;
+}
+
+.bg-salmon{
+  background-color: #FFC0CA;
+}
+
+.bg-cyan{
+  background-color: #1D90FF;
+}
+
+.bg-grey{
+  background-color: #D3D3D3;
+}
+
+.bg-dark_green{
+  background-color: #238A23;
+}
+
+
+.bg-black{
+  background-color: #23272A;
+}
+
+.bg-sea_green{
+  background-color: #1FB2AA;
+}
+
+.bg-pink{
+  background-color: #FFB6C1;
+}
+
+.bg-light_green{
+  background-color: #7FFFD4;
+}
+
+/* Header */
+
+nav {
+  background-color: #ADD8E5;
+}
+
+.navigator{
+  justify-content: center;
+}
+
+.navigator .col{
+  padding: 10px;
+  background-color: #DAA420;
+}
+
+.navigator .col:nth-child(1){
+  flex-grow: 1;
+}
+
+.navigator .col:nth-child(2){
+  display: flex;
+  justify-content:center ;
+  flex-grow: 3;
+  gap: 10px;
+}
+
+.navigator .col:nth-child(3){
+  flex-grow: 1;
+}
+
+/* Blue back #02008B with pink box #EE81ED */
+
+section.bg-blue_navy{
+  justify-content: center;
+}
+
+section.bg-blue_navy .box-strong_pink{
+  min-height: 400px;
+  flex-basis: 80%;
+}
+
+/* White back with double column #1D90FF #FFC0CA and Reverse */
+
+.row .bg-cyan, .row .bg-salmon{
+  min-height: 500px;
+}
+
+.box-cyan{
+  flex-grow: 3;
+}
+
+.bg-white .box-salmon{
+  flex-grow: 2;
+}
+
+/* Grey back #D3D3D3 with double colomn */
+
+.bg-grey .box-salmon{
+  flex-grow: 2;
+}
+
+/* Grey back with huge green box #238A23 */
+
+.row .box-dark_green{
+  flex-grow: 1;
+  min-height: 700px
+}
+
+/* Black back #23272A with four column #F08080 #1FB2AA */
+
+.footer-top{
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.footer-top .col{
+  min-height: 400px;
+}
+
+.box-sea_green{
+  flex-grow: 1;
+  border-color: #E3E3E3;
+}
+
+.footer-top .box-salmon{
+  flex-grow: 2;
+}
+
+/* Black footer #23272A with nav #7FFFD4 and elements pink #FFB6C1 */
+
+section.footer-bottom{
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.footer-bottom .row{
+  padding: 20px 0;
+  justify-content: space-between;
+}
+
+.foot-logo, .foot-button{
+  padding: 10px;
+}
+
+
+
+
+
+
+
+/* DEBUG */
+
+.debug .container{
+  border: 2px solid black;
+  /* min-height: 1000px; */
+} 
+
+/* .debug [class^='col']{
+  border: 1px dashed black;
+} */
