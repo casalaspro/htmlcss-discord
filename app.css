@@ -242,6 +242,16 @@ nav > .container > #navigator{
   width: 100%;
 }
 
+/*Voice */
+
+.voice img{
+  width: 100%;
+}
+
+.voice-text{
+  padding-top: 30px;
+}
+
 
 /* Grey back with huge green box #238A23 */
 
