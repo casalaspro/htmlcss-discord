@@ -36,12 +36,31 @@ a{
 
 /* Navigator */
 
-.navigator{
+nav{
+  background-color: #3161E0;
+}
+
+nav > .container > #navigator{
+  max-height: 40px;
+}
+
+#navigator{
   justify-content: center;
 }
 
-.navigator .item{
+#navigator .item{
   padding: 10px;
+}
+
+.nav-logo img{
+  width: 100%;
+}
+
+#
+
+.nav-menu .row{
+  justify-content: center;
+  gap: 10px;
 }
 
 /* Hero */
@@ -57,9 +76,9 @@ a{
 
 /* White back with double column #1D90FF #FFC0CA and Reverse */
 
-.row .box-cyan, .row .bg-salmon{
+/* .row .box-cyan, .row .bg-salmon{
   min-height: 500px;
-}
+} */
 
 .box-cyan{
   flex-grow: 3;
@@ -79,7 +98,7 @@ a{
 
 .row .box-dark_green{
   flex-grow: 1;
-  min-height: 700px
+  /* min-height: 700px  */
 }
 
 /* Black back #23272A with four column #F08080 #1FB2AA */
@@ -88,9 +107,9 @@ a{
   border-bottom: 1px solid #E3E3E3;
 }
 
-.footer-top .col{
+/* .footer-top .col{
   min-height: 400px;
-}
+} */
 
 .box-sea_green{
   flex-grow: 1;
@@ -131,6 +150,10 @@ section.footer-bottom{
 
 .debug [class^='col']{
   border: 1px dashed black;
+}
+
+.debug .row{
+  min-height: 400px;
 }
 
 /* .debug [class^='col']{
