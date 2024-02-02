@@ -87,6 +87,10 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+ul, li, menu{
+  list-style: none;
+}
+
 /* LAYOUT */
 
 .container{
