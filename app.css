@@ -234,6 +234,13 @@ nav > .container > #navigator{
 
 /* Channels */
 
+.channels-text{
+  padding-top: 30px;
+}
+
+.channels img{
+  width: 100%;
+}
 
 
 /* Grey back with huge green box #238A23 */
