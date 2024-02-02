@@ -1,3 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+
+/* DEBUG */
+
+.debug .container{
+  border: 2px solid black;
+  /* min-height: 1000px; */
+} 
+
+.debug [class^='col']{
+  border: 1px dashed black;
+}
+
+.debug .row{
+  min-height: 400px;
+}
+
+/* .debug [class^='col']{
+  border: 1px dashed black;
+} */
+/* bg-color */
+
+.debug .bg-blue_navy{
+  background-color: #02008B;
+}
+
+.debug .bg-strong_pink{
+  background-color: #EE81ED;
+}
+
+.debug .bg-salmon{
+  background-color: #FFC0CA;
+}
+
+.debug .bg-cyan{
+  background-color: #1D90FF;
+}
+
+.debug .bg-grey{
+  background-color: #D3D3D3;
+}
+
+.debug .bg-dark_green{
+  background-color: #238A23;
+}
+
+.debug .bg-black{
+  background-color: #23272A;
+}
+
+.debug .bg-sea_green{
+  background-color: #1FB2AA;
+}
+
+.debug .bg-pink{
+  background-color: #FFB6C1;
+}
+
+.debug .bg-light_green{
+  background-color: #7FFFD4;
+}
+
+.debug .bg-sugarcane{
+  background-color: #ADD8E5;
+}
+
+.debug .bg-lemon_yellow{
+  background-color: #DAA420;
+}
+
+
 /* RESET */
 
 *{
@@ -9,6 +81,10 @@
 a{
   text-decoration: none;
   color: currentColor;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
 }
 
 /* LAYOUT */
@@ -24,6 +100,13 @@ a{
   flex-wrap: wrap;
 }
 
+/* buttons */
+
+/* .btn-accedi{
+  border: 1px solid black;
+  border-radius: 50%;
+} */
+
 /* column width */
 
 .col-1-6{
@@ -37,7 +120,7 @@ a{
 /* Navigator */
 
 nav{
-  background-color: #3161E0;
+  background-color: #265EE9;
 }
 
 nav > .container > #navigator{
@@ -46,6 +129,7 @@ nav > .container > #navigator{
 
 #navigator{
   justify-content: center;
+  align-content: center;
 }
 
 #navigator .item{
@@ -58,12 +142,18 @@ nav > .container > #navigator{
 
 
 
-.nav-menu .row{
+.nav-menu > div.row{
   justify-content: center;
+  align-items: center;
   gap: 10px;
 }
 
 /* Hero */
+
+.hero{
+  background-image: url("./img/jumbo.png");
+  background-size:cover;
+}
 
 .hero .container-sm{
   max-width: 90%;
@@ -141,70 +231,3 @@ section.footer-bottom{
 
 
 
-/* DEBUG */
-
-.debug .container{
-  border: 2px solid black;
-  /* min-height: 1000px; */
-} 
-
-.debug [class^='col']{
-  border: 1px dashed black;
-}
-
-.debug .row{
-  min-height: 400px;
-}
-
-/* .debug [class^='col']{
-  border: 1px dashed black;
-} */
-/* bg-color */
-
-.debug .bg-blue_navy{
-  background-color: #02008B;
-}
-
-.debug .bg-strong_pink{
-  background-color: #EE81ED;
-}
-
-.debug .bg-salmon{
-  background-color: #FFC0CA;
-}
-
-.debug .bg-cyan{
-  background-color: #1D90FF;
-}
-
-.debug .bg-grey{
-  background-color: #D3D3D3;
-}
-
-.debug .bg-dark_green{
-  background-color: #238A23;
-}
-
-.debug .bg-black{
-  background-color: #23272A;
-}
-
-.debug .bg-sea_green{
-  background-color: #1FB2AA;
-}
-
-.debug .bg-pink{
-  background-color: #FFB6C1;
-}
-
-.debug .bg-light_green{
-  background-color: #7FFFD4;
-}
-
-.debug .bg-sugarcane{
-  background-color: #ADD8E5;
-}
-
-.debug .bg-lemon_yellow{
-  background-color: #DAA420;
-}
