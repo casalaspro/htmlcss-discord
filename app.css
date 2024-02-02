@@ -241,6 +241,11 @@ nav > .container > #navigator{
   /* min-height: 700px  */
 } */
 
+#stream-image-xl{
+  display: inline-block;
+  margin: 0 auto;
+}
+
 /* Black back #23272A with four column #F08080 #1FB2AA */
 
 .footer-top{
