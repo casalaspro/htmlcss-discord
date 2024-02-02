@@ -128,6 +128,10 @@ ul, li, menu{
   background-color: #23272A;
 }
 
+.bg-light_blue{
+  background-color: #8EA1E1;
+}
+
 .white{
   color: white;
 }
@@ -247,6 +251,10 @@ nav > .container > #navigator{
 .call-to-a-text{
   font-weight: 600;
   font-size: x-large;
+}
+
+div.call-to-a-text{
+  margin-bottom: 30px;
 }
 
 
