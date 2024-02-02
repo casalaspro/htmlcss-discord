@@ -44,30 +44,15 @@ a{
   padding: 10px;
 }
 
-.navigator .col:nth-child(1){
-  flex-grow: 1;
-}
-
-.navigator .col:nth-child(2){
-  display: flex;
-  justify-content:center ;
-  flex-grow: 3;
-  gap: 10px;
-}
-
-.navigator .col:nth-child(3){
-  flex-grow: 1;
-}
-
 /* Blue back #02008B with pink box #EE81ED */
 
-section.bg-blue_navy{
-  justify-content: center;
+.hero .container-sm{
+  max-width: 90%;
+  margin: 0 auto;
 }
 
-section .box-strong_pink{
+.hero .hero-box{
   min-height: 400px;
-  flex-basis: 80%;
 }
 
 /* White back with double column #1D90FF #FFC0CA and Reverse */
