@@ -34,7 +34,7 @@ a{
   width: calc(4*100%/6)
 }
 
-/* Header */
+/* Navigator */
 
 .navigator{
   justify-content: center;
@@ -44,7 +44,7 @@ a{
   padding: 10px;
 }
 
-/* Blue back #02008B with pink box #EE81ED */
+/* Hero */
 
 .hero .container-sm{
   max-width: 90%;
