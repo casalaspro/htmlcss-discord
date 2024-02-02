@@ -106,13 +106,19 @@ ul, li, menu{
 
 /* buttons */
 
-.btn-accedi{
-  background-color: #FFFFFF;
+.btn-sm{
   border: none;
-  color: black;
   padding: 10px 18px;
   text-align: center;
   border-radius: 16px;
+}
+
+.bg-white{
+  background-color: #FFFFFF;
+}
+
+.black{
+  color: black;
 }
 
 /* column width */
@@ -177,6 +183,21 @@ nav > .container > #navigator{
 
 .hero .hero-box{
   min-height: 400px;
+}
+
+.hero h1{
+  text-align: center;
+  font-weight: 800;
+  font-size: xxx-large;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.hero p{
+  text-align: center;
+  font-weight: 400;
+  font-size: large;
+  color: white;
 }
 
 /* White back with double column #1D90FF #FFC0CA and Reverse */
