@@ -52,6 +52,8 @@ ul, li, menu{
   font-size: large;
 }
 
+/* backgrounds and colors */
+
 .bg-white{
   background-color: #FFFFFF;
 }
@@ -86,15 +88,6 @@ ul, li, menu{
   display: flex;
 }
 
-.xy-center{
-  justify-content: center;
-  align-items: center;
-}
-
-.y-center{
-  align-items: center;
-}
-
 .col-1-6{
   width: calc(100%/6);
 }
@@ -113,6 +106,17 @@ ul, li, menu{
 
 .col-2-5{
   width: calc(2*100%/5);
+}
+
+/* position */
+
+.xy-center{
+  justify-content: center;
+  align-items: center;
+}
+
+.y-center{
+  align-items: center;
 }
 
 /* Navigator */
