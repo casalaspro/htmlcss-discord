@@ -132,6 +132,10 @@ ul, li, menu{
   background-color: #8EA1E1;
 }
 
+.violet{
+  color: #7189DA;
+}
+
 .white{
   color: white;
 }
@@ -148,6 +152,10 @@ ul, li, menu{
 
 .xy-center{
   justify-content: center;
+  align-items: center;
+}
+
+.y-center{
   align-items: center;
 }
 
@@ -284,13 +292,27 @@ div.call-to-a-text{
 } */
 
 .box-sea_green{
-  flex-grow: 1;
+  /* flex-grow: 1; */
   border-color: #E3E3E3;
 }
 
-.footer-top .box-salmon{
+/* .footer-top .box-salmon{
   flex-grow: 2;
+} */
+
+.img-flag{
+  width: 30px;
 }
+
+.language .language-text{
+  margin-left: 5px;
+}
+
+.language-text i{
+  margin-left: 4px;
+}
+
+
 
 
 /* Black footer #23272A with nav #7FFFD4 and elements pink #FFB6C1 */
