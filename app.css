@@ -34,6 +34,18 @@ ul, li, menu{
   flex-wrap: wrap;
 }
 
+.divider{
+  height: 71px;
+}
+
+div.divider.grey{
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
 /* buttons */
 
 .btn-sm{
@@ -60,6 +72,10 @@ ul, li, menu{
 
 .bg-grey{
   background-color: #F6F6F6;
+}
+
+.grey{
+  color: #F6F6F6;
 }
 
 .bg-black{
