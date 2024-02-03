@@ -155,6 +155,10 @@ ul, li, menu{
   width: calc(100%/6);
 }
 
+.col-2-6{
+  width: calc(2*100%/6);
+}
+
 .col-4-6{
   width: calc(4*100%/6)
 }
