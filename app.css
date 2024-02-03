@@ -208,6 +208,9 @@ nav > .container > #navigator{
 
 
 /* Call to Action */
+section.stream{
+  padding-top: 100px;
+}
 
 #stream-image-xl{
   display: block;
