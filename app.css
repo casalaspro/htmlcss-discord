@@ -283,9 +283,9 @@ div.call-to-a-text{
 
 /* Black back #23272A with four column #F08080 #1FB2AA */
 
-.footer-top{
+/* .footer-top{
   border-bottom: 1px solid #E3E3E3;
-}
+} */
 
 /* .footer-top .col{
   min-height: 400px;
@@ -322,6 +322,11 @@ div.link-list > ul > li > ul > li{
   color: white;
   font-weight: 400;
   margin-top: 10px;
+}
+
+.footer-top > .container{
+  border-bottom: 1px solid #8EA1E1;
+  padding-bottom: 50px;
 }
 
 
