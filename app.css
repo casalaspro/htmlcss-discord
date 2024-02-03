@@ -3,7 +3,7 @@
 
 /* DEBUG */
 
-.debug .container{
+/* .debug .container{
   border: 2px solid black;
 } 
 
@@ -29,13 +29,13 @@
 
 .debug .bg-cyan{
   background-color: #1D90FF;
-}
+} */
 
 /* .debug .bg-grey{
   background-color: #D3D3D3;
 } */
 
-.debug .bg-dark_green{
+/* .debug .bg-dark_green{
   background-color: #238A23;
 }
 
@@ -61,7 +61,7 @@
 
 .debug .bg-lemon_yellow{
   background-color: #DAA420;
-}
+} */
 
 
 /* RESET */
@@ -256,10 +256,10 @@ nav > .container > #navigator{
 
 /*Voice */
 
+/* __________________ */
 
 
-
-/* Grey back with huge green box #238A23 */
+/* Call to Action */
 
 #stream-image-xl{
   display: block;
