@@ -261,11 +261,6 @@ nav > .container > #navigator{
 
 /* Grey back with huge green box #238A23 */
 
-.row .box-dark_green{
-  flex-grow: 1;
-  /* min-height: 700px  */
-} */
-
 #stream-image-xl{
   display: block;
   margin: 0 auto;
@@ -281,24 +276,12 @@ div.call-to-a-text{
 }
 
 
-/* Black back #23272A with four column #F08080 #1FB2AA */
-
-/* .footer-top{
-  border-bottom: 1px solid #E3E3E3;
-} */
-
-/* .footer-top .col{
-  min-height: 400px;
-} */
+/* Footer Top */
 
 .box-sea_green{
   /* flex-grow: 1; */
   border-color: #E3E3E3;
 }
-
-/* .footer-top .box-salmon{
-  flex-grow: 2;
-} */
 
 .img-flag{
   width: 30px;
@@ -329,10 +312,7 @@ div.link-list > ul > li > ul > li{
   padding-bottom: 50px;
 }
 
-
-
-
-/* Black footer #23272A with nav #7FFFD4 and elements pink #FFB6C1 */
+/* Footer Bottom */
 
 section.footer-bottom{
   border-bottom: 1px solid #E3E3E3;
