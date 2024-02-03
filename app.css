@@ -312,6 +312,18 @@ div.call-to-a-text{
   margin-left: 4px;
 }
 
+div.link-list > ul > li:nth-child(1){
+  color: #7189DA;
+  font-weight: 800;
+  font-size: medium;
+}
+
+div.link-list > ul > li > ul > li{
+  color: white;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
 
 
 
